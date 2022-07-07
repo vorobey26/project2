@@ -1,0 +1,120 @@
+﻿.d_banner
+{margin-top: 5px;
+}
+
+.d_menu
+{ 
+width: 100%;
+margin: 4px;
+}
+
+.d_cont
+{
+padding-top: 10px;
+margin: 0 15% 0 15%;
+width: 70%;
+}
+
+body 
+{
+margin: 0px;
+padding:0px;
+font: 15px Georgia;
+background-color:  LightCyan;
+width: 100%;
+}
+
+ul {
+/* Убираем маркеры у списка */
+list-style: none;
+/* Делаем элементы блочными */
+display: block;
+/* Убираем отступы */
+margin: 0px;
+padding: 0px;
+/* Задаём ширину блока */
+width: 100%;
+} 
+
+ul:after {
+/* Делаем элементы блочными */
+display: block;
+/* Убираем выравнивание */
+float: none;
+content: ' ';
+/* Отменяем обтекание элемента одновременно с правого и левого края */
+clear: both;
+} 
+ul.menu > li {
+/* Задаём выравнивание и позиционирование */
+float: left;
+/* Считаем координаты относительно исходного места */
+position: relative;
+/* Задаём ширину элемента */
+width: 33%;
+} 
+ul.menu > li > a {
+/* Делаем элементы блочными */
+display: block;
+/* Задаем белый цвет */
+color: #000;
+/* Задаем отступ */
+padding: 10px;
+/* Убираем форматирование */
+text-decoration: none;
+/* Задаем цвет заднего фона */
+background-color: #1476b3;
+/* Выравниваем текст по центру */
+text-align: center;
+} 
+ul.menu > li > a:hover {
+/* Задаем цвет заднего фона при наведении */
+background-color: #68b7e8;
+} 
+ul.submenu {
+/* Элемент абсолютно позиционирован */
+position: absolute;
+/* Определяем расстояние от верхнего и левого края родительского элемента до верхнего края дочернего элемента */
+top: 37px;
+left: 0px;
+/* Делаем подменю скрытыми */
+display: none;
+/* Цвет заднего фона — белый */
+background-color: white;
+/* Выравниваем текст по центру */
+text-align: center;
+} 
+ul.submenu > li {
+/* Блочное расположение элементов */
+display: block;
+} 
+ul.submenu > li > a {
+/* Делаем элементы блочными */
+display: block;
+/* Убираем форматирование */
+text-decoration: none;
+/* Задаем отступ */
+padding: 10px;
+/* Задаем цвет */
+color: #000000;
+/* Задаем цвет заднего фона */
+background-color: #1476b3;
+} 
+ul.submenu > li > a:hover {
+/* Цвет заднего фона при наведении */
+background-color: #68b7e8;
+/* Убираем подчеркивание при наведении */
+text-decoration: none;
+} 
+ul.menu > li:hover > ul.submenu {
+/* Делаем элементы блочными */
+display: block;
+} 
+input[type="text"]
+{
+	width: 310px;
+}
+.tbl:hover
+{
+	background-color: PaleTurquoise;
+}
